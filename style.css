@@ -1,0 +1,46 @@
+#winner {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    height: 50px;
+    border-radius: 18px;
+    font-size: 50px;
+}
+
+#container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#container>div {
+    border: 5px solid rgb(177, 134, 85);
+    border-radius: 12px;
+    height: 100px;
+    width: 20%;
+}
+
+#btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#btn > button{
+    border: none;
+    border: 2px solid red;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+#btn > button:hover{
+    background-color: red;
+    color: white;
+}
